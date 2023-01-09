@@ -31,15 +31,15 @@ header article{
     font-weight: 700;
     width: 80%;
 }
-.beneficios{
+.beneficios, .servicios{
     text-align: center;
     padding: 30px;
 }
-.beneficios p{
+.beneficios p, .servicios p{
     font-size:36px;
     font-weight: 700;
 }
-#beneficios{
+#beneficios, #servicios{
     text-align: center;
     display: flex;
     flex-wrap: wrap;
@@ -50,11 +50,19 @@ header article{
     height: 187px;
     margin-top: 15px;
 }
-#beneficios section h4{
+#beneficios section h4, #servicios section h4{
     font-weight: 700;
     margin-top: 15px;
 }
 #beneficios section img{
     width: 70px;
     height: 70px;
+}
+#servicios section img{
+    width: 200px;
+    height: 200px;
+}
+#servicios section{
+    width: 300px;
+  
 }
