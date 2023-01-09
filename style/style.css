@@ -31,7 +31,7 @@ header article{
     font-weight: 700;
     width: 80%;
 }
-.beneficios, .servicios{
+.beneficios, .servicios, .marcas{
     text-align: center;
     padding: 30px;
 }
@@ -64,5 +64,23 @@ header article{
 }
 #servicios section{
     width: 300px;
-  
+}
+.marcas p{
+    font-size:25px;
+    font-weight: 700;
+}
+.marcas {
+    margin-top: 20px;
+    background-color: #DAF0F3;
+}
+#marcas {
+    background-color: #DAF0F3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+#marcas img {
+    width: 100px;
+    height: 80px;
+    margin: 20px;
 }
