@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -13,6 +14,7 @@ header{
 }
 header article{
     font-size: 36px;
+    font-weight: 700;
     margin-left: 29px;
 }
 .empieza{
@@ -26,5 +28,33 @@ header article{
 .empieza p{
     color: #FFFFFF;
     font-size: 52px;
+    font-weight: 700;
     width: 80%;
+}
+.beneficios{
+    text-align: center;
+    padding: 30px;
+}
+.beneficios p{
+    font-size:36px;
+    font-weight: 700;
+}
+#beneficios{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#beneficios section{
+    width: 267px;
+    height: 187px;
+    margin-top: 15px;
+}
+#beneficios section h4{
+    font-weight: 700;
+    margin-top: 15px;
+}
+#beneficios section img{
+    width: 70px;
+    height: 70px;
 }
