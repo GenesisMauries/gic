@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap');
-
 *{
     margin: 0;
     padding: 0;
@@ -31,11 +30,11 @@ header article{
     font-weight: 700;
     width: 80%;
 }
-.beneficios, .servicios, .marcas{
+.beneficios, .servicios, .marcas, .garantia{
     text-align: center;
     padding: 30px;
 }
-.beneficios p, .servicios p{
+.beneficios p, .servicios p, .garantia h4{
     font-size:36px;
     font-weight: 700;
 }
@@ -83,4 +82,39 @@ header article{
     width: 100px;
     height: 80px;
     margin: 20px;
+}
+.garantia p{
+    font-size: 22px
+}
+.garantia h4{
+    padding: 20px 17%;
+}
+
+/*ul .check{ list-style-image: url('../img/check.svg'); }*/
+.check,.no, .guia{list-style:none;}
+.check li, .no li, .guia li{ margin-top: 10px;}
+.check li::before{
+	content:url("../img/check.svg");
+	margin-right:8px;
+}
+.no li::before{
+	content:url("../img/x.svg");
+	margin-right:8px;
+}
+.guia li::before{
+    content:url("../img/guia.svg");
+	margin-right:8px;
+}
+.condiciones{
+    display:flex;
+    margin-top: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.condiciones article{
+    width: 500px;
+}
+.condiciones article:nth-child(2n){
+    background-color: #AEDFE4;
+    padding: 45px;
 }
