@@ -1,0 +1,10 @@
+@media (max-width: 575.98px) {
+    .empieza p{
+        font-size: 45px;
+    }
+    .empieza{
+        background-position: 25% 75%;
+        height: 400px;
+    }
+    
+}
