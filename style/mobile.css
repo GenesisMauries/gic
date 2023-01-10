@@ -22,4 +22,14 @@
         width: 150px;
         height: 100px;
     }
+    footer article article {
+        display: none;
+    }
+    .contacto{
+        margin-top: 15px;
+    }
+    footer article:nth-child(3){
+        margin-top: 15px;
+        display: block;
+    }
 }

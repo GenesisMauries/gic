@@ -11,7 +11,7 @@ header{
     display: flex;
     align-items: center;
 }
-header article{
+header article, footer article h2{
     font-size: 36px;
     font-weight: 700;
     margin-left: 29px;
@@ -101,8 +101,8 @@ header article{
 }
 
 /*ul .check{ list-style-image: url('../img/check.svg'); }*/
-.check,.no, .guia{list-style:none;}
-.check li, .no li, .guia li{ margin-top: 10px;}
+.check,.no, .guia, .ubicacion, .correo, .cel, .tel{list-style:none;}
+.check li, .no li, .guia li, .ubicacion li, .correo li, .cel li, .tel li{ margin-top: 10px;}
 .check li::before{
 	content:url("../img/check.svg");
 	margin-right:8px;
@@ -113,6 +113,22 @@ header article{
 }
 .guia li::before{
     content:url("../img/guia.svg");
+	margin-right:8px;
+}
+.ubicacion li::before{
+    content:url("../img/uno.svg");
+	margin-right:8px;
+}
+.correo li::before{
+    content:url("../img/dos.svg");
+	margin-right:8px;
+}
+.cel li::before{
+    content:url("../img/tres.svg");
+	margin-right:8px;
+}
+.tel li::before{
+    content:url("../img/cuatro.svg");
 	margin-right:8px;
 }
 .condiciones{
@@ -143,3 +159,22 @@ header article{
     margin-top: 30px;
     text-align: center;
 }
+footer{
+    margin-top: 30px;
+    padding: 30px;
+    background: -webkit-linear-gradient(180deg, #BED73D, #AEDFE4);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+footer article{
+    width: 300px;
+}
+footer article article{
+ margin-top: 50px;
+}
+footer article:nth-child(3){
+    display: none;
+}
+
+.tel li a, .cel li a, .correo li a{text-decoration: none; color: #000;}
