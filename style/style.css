@@ -94,7 +94,8 @@ header article, footer article h2{
 
 }
 .garantia p{
-    font-size: 22px
+    font-size: 22px;
+    padding: 0px 100px;
 }
 .garantia h4{
     padding: 20px 17%;

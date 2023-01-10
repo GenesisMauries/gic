@@ -32,4 +32,10 @@
         margin-top: 15px;
         display: block;
     }
+    .garantia p{
+        padding: 0px 0px;
+    }
+    .garantia{
+        text-align: start;
+    }
 }
