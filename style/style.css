@@ -30,11 +30,11 @@ header article{
     font-weight: 700;
     width: 80%;
 }
-.beneficios, .servicios, .marcas, .garantia{
+.beneficios, .servicios, .marcas, .garantia, .opiniones, .compatible{
     text-align: center;
     padding: 30px;
 }
-.beneficios p, .servicios p, .garantia h4{
+.beneficios p, .servicios p, .garantia h4, .compatible p{
     font-size:36px;
     font-weight: 700;
 }
@@ -64,15 +64,15 @@ header article{
 #servicios section{
     width: 300px;
 }
-.marcas p{
+.marcas p, .opiniones p{
     font-size:25px;
     font-weight: 700;
 }
-.marcas {
+.marcas, .opiniones {
     margin-top: 20px;
     background-color: #DAF0F3;
 }
-#marcas {
+#marcas, #opiniones {
     background-color: #DAF0F3;
     display: flex;
     flex-wrap: wrap;
@@ -82,6 +82,16 @@ header article{
     width: 100px;
     height: 80px;
     margin: 20px;
+}
+#opiniones section{
+    width: 200px;
+}
+#opiniones section img {
+    width: 30px;
+}
+#opiniones{
+    padding-bottom: 20px;
+
 }
 .garantia p{
     font-size: 22px
@@ -117,4 +127,19 @@ header article{
 .condiciones article:nth-child(2n){
     background-color: #AEDFE4;
     padding: 45px;
+}
+
+#compatible {
+    padding:30px 60px;
+    font-size: 22px;
+}
+#compatible article img {
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    margin: 20px;
+}
+#compatible article:nth-child(2){
+    margin-top: 30px;
+    text-align: center;
 }

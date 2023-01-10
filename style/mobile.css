@@ -15,4 +15,11 @@
     .condiciones{
         padding: 20px;  
     }
+    #opiniones section{
+        margin-top: 20px;
+    }
+    #compatible article img {
+        width: 150px;
+        height: 100px;
+    }
 }
